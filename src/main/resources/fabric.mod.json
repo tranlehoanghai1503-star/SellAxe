@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sellaxe",
+  "version": "${version}",
+  "name": "SellAxe",
+  "description": "SellAxe by Hải Trần",
+  "authors": ["Hải Trần"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.hai.sellaxe.SellAxeAddon"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "fabricloader": ">=0.18.0",
+    "meteor-client": "*"
+  },
+  "recommends": {
+    "fabric-api": "*"
+  }
+}
